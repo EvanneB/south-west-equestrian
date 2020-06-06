@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #808080;
+    font-style: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
