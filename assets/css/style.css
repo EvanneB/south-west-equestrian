@@ -6,9 +6,38 @@
 
 html {
     background-color: #fff;
-    color: #808080;
-    font-style: 'Montserrat', 'sans-serif';
+    color: #3C3E44;
+    font-style: 'Open Sans', 'sans-serif';
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+}
+
+-------------------------------
+.row {
+    min-width: 768px;
+    margin: 0, auto;
+}
+#hero-image {
+    background-image: url("assets/images/hero.jpg");
+    height: 600px;
+    width: 100%;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 768px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    position: absolute;
+    margin-top: 20px;
+    top: 0%;
+    left: 0%;
 }
