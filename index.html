@@ -3,21 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
     <title>South West Equestrian</title>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="row">
+  <!--Mobile Navbar-->
+<nav class="navbar fixed-top navbar-light bg-white">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="index.html">South West Equestrian</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Classes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </div>
+  <!-- Collapsible content -->
+</nav>
+<!--/.Navbar-->
+<!--- Desktop Nav--->
+    <nav class="desktop">
+      <div class="row no-gutters">
         <div class="hero-text-box">
         <h2>"Our perfect companions never have fewer than four feet"</h2>
         </div>
        <h1>South West Equestrian</h1>
-        <ul class="menu">
+        <ul class="nav-desktop">
           <li>
             <a class= "active" href="index.html">Home</a>
           </li>
@@ -30,10 +61,14 @@
         </ul>
       </div>
     </nav>
+    <!--- /Desktop Nav--->
+    <div class="hero-text-box">
+        <h2>"Our perfect companions never have fewer than four feet"</h2>
+        </div>
   </header>
 
   <section class="section-container">
-    <div class="row">
+    <div class="row no gutters">
     <h2 class="welcome">Welcome to South West Equestrian</h2>
     <p class="long-copy">
       We are a family run riding school residing along the beautiful coast of Donegal.
@@ -41,38 +76,29 @@
       With an indoor and outdoor arena we can cater for all your needs all year round.
       Get in touch with our enquiries form below. </p>
     </div>
-
-    <div class="row">
-      <div class="col-md-4 box">
+      <div class="row">
+      <div class="column-left box">
        <i class="fas fa-graduation-cap icon-big"></i>
         <h3>Lessons</h3>
-          <p>We offer a range of classes from beginner to advanced taught by qualified and experienced instructors.</p>
+          <p>We offer a range of classes from beginner to advanced taught by qualified and experienced instructors. </p>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-4 box">
+      <div class="column-middle1 box">
         <i class="fas fa-award icon-big"></i>
         <h3>Events</h3>
-          <p>We host a range of events for all levels including show-jumping, dressage and cross-country which are open to all riders to compete in.</p>
+          <p>We host a range of events for all levels including show-jumping, dressage and cross-country which are open to all riders to compete in. Competitions are hosted all year round with prizes sponsored by local businesses.</p>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4  box">
+    
+      <div class="column-middle2 box">
         <i class="fas fa-sun icon-big"></i>
         <h3>Summer Camps</h3>
-          <p>In the summer months we run week long camps for kids of all ages where we teach the fundamentals of caring for your horse as well as fun games and lessons all day long.</p>
+          <p>In the summer months we run week long camps for kids of all ages where we teach the fundamentals of caring for your horse as well as fun games and lessons all day long. The camps run for one week at a time with discounts for two weeks or more and families.</p>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4  box">
+    
+      <div class="column-right box">
         <i class="fab fa-pagelines icon-big"></i>
         <h3>Therapy Horses</h3>
-          <p>Here at South West Equestrian, among our gentle giants we have a coulple of therapy horses which we use for our herapeutic riding lessons.  Theraphy horse riding has been recognised for decades to improve physical, emotional, social, cognitive, behavioural and educational skills as well as being a healthy and fun activity.
-          
-          </p>
+          <p>Here at South West Equestrian, among our gentle giants we have a coulple of therapy horses which we use for our herapeutic riding lessons.  Theraphy horse riding has been recognised for decades to improve physical, emotional, social, cognitive, behavioural and educational skills as well as being a healthy and fun activity.</p>
       </div>
     </div>
 
@@ -86,7 +112,7 @@
       </li>
        <li>
         <figure class="gallery-photo">
-          <img src="assets/images/sun.jpg">
+          <img src="assets/images/jumping.jpg">
         </figure>
       </li>
        <li>
@@ -147,9 +173,70 @@
       </li>
     </ul>
   </section>
-   
-      
+<section class="classes">
+  <div class="row">
+  <h3>We offer over different 50 classes per week, get in touch to arrange your booking</h2>
+  <button type="button" class="btn btn-warning">Contact</button>
+  </div>
+  <div class="row">
+    <div class="column box">
+      <img src="assets/images/beginner.jpg" alt="beginner">
+        <h3>Beginner</h3>
+          <div class="class-availability">
+          <i class="far fa-calendar"></i>Daily classes</div>
+          <div class="class-availability">
+          <i class="far fa-heart"></i>Gentle, friendly ponies</div>
+          <div class="class-availability">
+          <i class="far fa-user"></i>Experienced Instructors</div>
+          <button type="button" class="btn btn-warning">Contact</button>
+    </div>
+     <div class="column box">
+      <img src="assets/images/jumping1.jpg" alt="jumping">
+        <h3>Show Jumping</h3>
+          <div class="class-availability">
+          <i class="far fa-calendar"></i>Classes Monday & Wednesday </div>
+          <div class="class-availability">
+          <i class="far fa-heart"></i>Gentle, friendl</div>
+          <div class="class-availability">
+          <i class="far fa-user"></i>Experienced Instructors</div>
+          <button type="button" class="btn btn-warning">Contact</button>
+    </div>
+     <div class="column box">
+      <img src="assets/images/dressage.jpg" alt="dressage">
+        <h3>Beginner</h3>
+          <div class="class-availability">
+          <i class="far fa-calendar"></i>Dressage</div>
+          <div class="class-availability">
+          <i class="far fa-heart"></i>Classes Tuesday & Thursday</div>
+          <div class="class-availability">
+          <i class="far fa-user"></i>Monthly competitions for all levels</div>
+          <button type="button" class="btn btn-warning">Contact</button>
+    </div>
+     <div class="column box">
+      <img src="assets/images/seaside.jpg" alt="seaside">
+        <h3>Beginner</h3>
+          <div class="class-availability">
+          <i class="far fa-calendar"></i>Daily classes</div>
+          <div class="class-availability">
+          <i class="far fa-heart"></i>Gentle, friendly ponies</div>
+          <div class="class-availability">
+          <i class="far fa-user"></i>Experienced Instructors</div>
+          <button type="button" class="btn btn-warning">Contact</button>
+    </div>
 
+  </div>
+</section> 
+
+ <footer>
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="contact.html" target="_blank"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    
+    </footer>  
+    
     
 </body>
 </html>
