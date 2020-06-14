@@ -13,18 +13,20 @@ html {
     font-style: 'Open Sans', 'sans-serif';
     font-weight: 400;
     font-size: 16px;
-    text-rendering: optimizeLegibility;  
+    text-rendering: optimizeLegibility; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 /*----------------------------------------Header*/
 .row {
-    min-width: 378px;
+    min-width: 400px;
     margin: 0, auto;
 }
 header {
-    background: url("../images/sun.jpg");
+    background: url("../images/sun.jpg") no-repeat center;
     background-size: cover;
-    background-position: center;
     min-height: 100vh;
     background-attachment: fixed;
 }
@@ -34,9 +36,12 @@ font-size: 1.5rem;
 .navbar-toggler.toggler-example {
 cursor: pointer;
 }
+.orange-text {
+color:#f1c40f;
+}
 .navbar-brand {
  font-family: 'Open Sans','sans-serif';
- font-size: 18px;
+ font-size: 20px;
  font-weight: 600;
  text-transform: uppercase;   
 }
@@ -70,8 +75,10 @@ h1 {
     right: 5%;
 
 }
-.desktop {
-    display: none;
+.second-page {
+    background: none;
+    min-height:0;
+    width: 0;
 }
 
 /*----------------------------------------First Section*/
@@ -123,11 +130,11 @@ h3 {
 }
 /*----------------------------------------Icons*/
 .icon-big {
-    font-size: 200%;
+    font-size: 30px;
     display: block;
     color:#f1c40f;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     
 }
 /*----------------------------------------Gallery*/
@@ -158,6 +165,28 @@ h3 {
     width:100%;
     height: 200px;
     margin-bottom: 15px;
+   
+}
+h4 {
+    font-size: 16px;
+    line-height: 130%;
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h4 .btn {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.btn-warning {
+    margin: 5%;
+}
+/*----------------------------------------Contact*/
+.third-page {
+    background: none;
+    min-height:0px;
+    width: 0;
 }
 /*----------------------------------------Footer*/
 footer {
@@ -170,11 +199,11 @@ footer {
 }
 
 .social-media i {
-    font-size: 25px;
+    font-size: 30px;
     color: #f1c40f;
     margin-right: 2%;
     margin-left: 2%;
-    padding: 6%;
+    padding: 7%;
 }
 /*----------------------------------------Media Queries*/
 @media(min-width: 768px) {
