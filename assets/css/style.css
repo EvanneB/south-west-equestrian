@@ -21,7 +21,7 @@ html {
 
 /*----------------------------------------Header*/
 .row {
-    min-width: 400px;
+    min-width: 25rem;
     margin: 0, auto;
 }
 header {
@@ -55,6 +55,9 @@ color:#f1c40f;
     bottom: 10%;
     left: 6%;
 }
+.color-white {
+    color: white;
+}
 h2 {
     font-size: 20px;
     font-weight: 600;
@@ -69,7 +72,7 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 2px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     top: 0%;
     left: 10%;
     right: 5%;
@@ -98,8 +101,8 @@ h1 {
     font-size: 20px;
     word-spacing: 1px;
     text-align: center;
-    margin-bottom: 25px;
-    padding-top: 25px;
+    margin-bottom: 1.56rem;
+    padding-top: 1.56rem;
     line-height: 130%;
     width: 80%;
     margin-left: 5%;
@@ -130,11 +133,11 @@ h3 {
 }
 /*----------------------------------------Icons*/
 .icon-big {
-    font-size: 30px;
+    font-size: 2.5rem;
     display: block;
     color:#f1c40f;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.63rem;
     
 }
 /*----------------------------------------Gallery*/
@@ -154,17 +157,14 @@ h3 {
 .gallery-photo img {
     width: 100%;
     height: auto;
-    transform: scale(1.10);
-    transition: 0.5s;
+
 }
-.gallery-photo img:hover {
-    transform: scale(1.03);
-}
+
 /*----------------------------------------Classes*/
 .box img {
     width:100%;
-    height: 200px;
-    margin-bottom: 15px;
+    height: 12.5rem;
+    margin-bottom: 1rem;
    
 }
 h4 {
@@ -175,22 +175,23 @@ h4 {
     margin-left: 15%;
     margin-right: 15%;
 }
-h4 .btn {
-    padding-left: 20%;
-    padding-right: 20%;
+#top-button {
+    margin-left: 40%;
+    margin-right: 35%;
+
 }
 .btn-warning {
-    margin: 5%;
+    margin: 2% 0;
 }
 /*----------------------------------------Contact*/
 .third-page {
     background: none;
-    min-height:0px;
+    min-height:0;
     width: 0;
 }
 /*----------------------------------------Footer*/
 footer {
-    height: 150px;
+    height: 10rem;
 }
 
 .social-media li {
@@ -199,17 +200,17 @@ footer {
 }
 
 .social-media i {
-    font-size: 30px;
+    font-size: 2.5rem;
     color: #f1c40f;
-    margin-right: 2%;
-    margin-left: 2%;
-    padding: 7%;
+    margin-top: 4rem;
+    margin-left: 13%;
+    margin-right: auto;
 }
 /*----------------------------------------Media Queries*/
 @media(min-width: 768px) {
     .row {
     min-width: 768px;
-    margin: 0, auto;
+    margin: 0 auto;
     }
 }
 
@@ -217,40 +218,40 @@ footer {
 @media(min-width: 992px) {
     .row {
     max-width: 992px;
-    margin: 0, auto;
+    margin: 0 auto;
     }
 }
 
 @media(min-width: 1024px) {
 .row {
     max-width: 1024px;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 .column {
     float:left;
      width: 25%;
-    padding 2px;
+    padding: 2px;
 }
 .column-left {
     width: 25%;
-    padding 2px;
+    padding: 2px;
 }
 .column-middle1 {
     width: 25%;
-    padding 2px;
+    padding: 2px;
 }
 .column-middle2 {
     width: 25%;
-    padding 2px;
+    padding: 2px;
 }
 .column-right {
     width: 25%;
-    padding 2px;
+    padding: 2px;
 }
 }
 @media(min-width: 1440px) {
     .row {
     max-width: 1440px;
-    margin: 0, auto;
+    margin: 0 auto;
     }
 }
