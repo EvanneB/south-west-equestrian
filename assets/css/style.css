@@ -41,16 +41,14 @@ color:#f1c40f;
 }
 .navbar-brand {
  font-family: 'Open Sans','sans-serif';
- font-size: 20px;
+ font-size: 1.5rem;
  font-weight: 600;
  text-transform: uppercase;   
 }
 
 .hero-text-box {
-    font-style: 'Indie Flower', 'sans-serif';
-    position: absolute;
     font-style: italic;
-    font-size: 16px;
+    position: absolute;
     width: 365x;
     bottom: 10%;
     left: 6%;
@@ -59,25 +57,10 @@ color:#f1c40f;
     color: white;
 }
 h2 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
-h1 {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    position: absolute;
-    margin-top: 1.25rem;
-    top: 0%;
-    left: 10%;
-    right: 5%;
-
-}
 .second-page {
     background: none;
     min-height:0;
@@ -217,14 +200,14 @@ footer {
   
 @media(min-width: 992px) {
     .row {
-    max-width: 992px;
+    min-width: 992px;
     margin: 0 auto;
     }
 }
 
 @media(min-width: 1024px) {
 .row {
-    max-width: 1024px;
+    min-width: 1024px;
     margin: 0 auto;
 }
 .column {
@@ -251,7 +234,7 @@ footer {
 }
 @media(min-width: 1440px) {
     .row {
-    max-width: 1440px;
+    min-width: 1440px;
     margin: 0 auto;
     }
 }
