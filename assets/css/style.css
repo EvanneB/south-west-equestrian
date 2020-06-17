@@ -1,28 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-
 html {
     background-color: #fff;
     color: #3C3E44;
-    font-style: 'Open Sans', 'sans-serif';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-
 /*----------------------------------------Header*/
 .row {
     min-width: 16rem;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 header {
     background: url("../images/sun.jpg") no-repeat center;
@@ -31,25 +27,24 @@ header {
     background-attachment: fixed;
 }
 .fa-1x {
-font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 .navbar-toggler.toggler-example {
-cursor: pointer;
+    cursor: pointer;
 }
 .orange-text {
-color:#f1c40f;
+    color: #f1c40f;
 }
 .navbar-brand {
- font-family: 'Open Sans','sans-serif';
- font-size: 1.2rem;
- font-weight: 600;
- text-transform: uppercase;   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
-
 .hero-text-box {
     font-style: italic;
     position: absolute;
-    width: 365x;
+    width: 365px;
     bottom: 10%;
     left: 6%;
 }
@@ -60,23 +55,20 @@ h2 {
     font-size: 1.4rem;
     font-weight: 500;
 }
-
 .second-page {
     background: none;
-    min-height:0;
+    min-height: 0;
     width: 0;
 }
-
 /*----------------------------------------First Section*/
 .section {
     padding: 80px 0;
 }
 .column {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
 }
-
 .box {
     padding: 1%
 }
@@ -115,16 +107,14 @@ p {
 h3 {
     font-size: 17px;
     letter-spacing: 1px;
-
 }
 /*----------------------------------------Icons*/
 .icon-big {
     font-size: 2.5rem;
     display: block;
-    color:#f1c40f;
+    color: #f1c40f;
     margin-top: 0.3rem;
     margin-bottom: 0.63rem;
-    
 }
 /*----------------------------------------Gallery*/
 .gallery-pics {
@@ -134,7 +124,7 @@ h3 {
 .gallery-pics li {
     display: block;
     float: left;
-    width: 25%;   
+    width: 25%;
 }
 .gallery-photo {
     width: 100%;
@@ -143,15 +133,12 @@ h3 {
 .gallery-photo img {
     width: 100%;
     height: auto;
-
 }
-
 /*----------------------------------------Classes*/
 .box img {
-    width:100%;
+    width: 100%;
     height: 12.5rem;
     margin-bottom: 1rem;
-   
 }
 h4 {
     font-size: 1rem;
@@ -164,7 +151,6 @@ h4 {
 #top-button {
     margin-left: 40%;
     margin-right: 35%;
-
 }
 .btn-warning {
     margin: 2% 0;
@@ -172,19 +158,17 @@ h4 {
 /*----------------------------------------Contact*/
 .third-page {
     background: none;
-    min-height:0;
+    min-height: 0;
     width: 0;
 }
 /*----------------------------------------Footer*/
 footer {
     height: 10rem;
 }
-
 .social-media li {
     text-align: center;
     display: inline;
 }
-
 .social-media i {
     font-size: 2rem;
     color: #f1c40f;
@@ -193,14 +177,14 @@ footer {
     margin-right: auto;
 }
 /*----------------------------------------Media Queries*/
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .row {
-    min-width: 768px;
-    margin: 0 auto;
+        min-width: 768px;
+        margin: 0 auto;
     }
     .navbar-brand {
-    font-size: 2.5rem;}
-
+        font-size: 2.5rem;
+    }
     .section-container {
         font-size: 1.3rem;
     }
@@ -208,26 +192,27 @@ footer {
         font-size: 1.4rem;
     }
     .social-media i {
-    font-size: 2.5rem;
-    color: #f1c40f;
-    margin-top: 4rem;
-    margin-left: 15.5%;
-    margin-right: auto;
-}
+        font-size: 2.5rem;
+        color: #f1c40f;
+        margin-top: 4rem;
+        margin-left: 15.5%;
+        margin-right: auto;
+    }
     h2 {
         font-size: 2rem;
-        }
-    h3. {
-        font-size: 1.75rem}
-  
-@media(min-width: 992px) {
+    }
+    h3 {
+        font-size: 1.75rem
+    }
+}
+@media (min-width: 992px) {
     .row {
-    min-width: 992px;
-    margin: 0 auto;
+        min-width: 992px;
+        margin: 0 auto;
     }
     .navbar-brand {
-    font-size: 2.5rem;}
-
+        font-size: 2.5rem;
+    }
     .section-container {
         font-size: 1.3rem;
     }
@@ -238,68 +223,67 @@ footer {
         font-size: 1.75rem;
     }
     .social-media i {
-    font-size: 2.5rem;
-    color: #f1c40f;
-    margin-top: 4rem;
-    margin-left: 15.5%;
-    margin-right: auto;
-}
+        font-size: 2.5rem;
+        color: #f1c40f;
+        margin-top: 4rem;
+        margin-left: 15.5%;
+        margin-right: auto;
+    }
     h2 {
         font-size: 2rem;
-        }
+    }
     h3 {
-        font-size: 1.75rem}
-        .column {
-    float:left;
-     width: 25%;
-    padding: 2px;
+        font-size: 1.75rem
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 2px;
+    }
+    .column-left {
+        width: 25%;
+        padding: 2px;
+    }
+    .column-middle1 {
+        width: 25%;
+        padding: 2px;
+    }
+    .column-middle2 {
+        width: 25%;
+        padding: 2px;
+    }
+    .column-right {
+        width: 25%;
+        padding: 2px;
+    }
 }
-.column-left {
-    width: 25%;
-    padding: 2px;
-}
-.column-middle1 {
-    width: 25%;
-    padding: 2px;
-}
-.column-middle2 {
-    width: 25%;
-    padding: 2px;
-}
-.column-right {
-    width: 25%;
-    padding: 2px;
-}
-
-@media(min-width: 1000x) {
-  .row {
-    min-width: 1000px;
-    margin: 0 auto;
-}
-  .navbar-brand {
-    font-size: 2.8rem;}
-
-
-.column {
-    float:left;
-     width: 25%;
-    padding: 2px;
-}
-.column-left {
-    width: 25%;
-    padding: 2px;
-}
-.column-middle1 {
-    width: 25%;
-    padding: 2px;
-}
-.column-middle2 {
-    width: 25%;
-    padding: 2px;
-}
-.column-right {
-    width: 25%;
-    padding: 2px;
-}
-
+@media (min-width: 1000px) {
+    .row {
+        min-width: 1000px;
+        margin: 0 auto;
+    }
+    .navbar-brand {
+        font-size: 2.8rem;
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 2px;
+    }
+    .column-left {
+        width: 25%;
+        padding: 2px;
+    }
+    .column-middle1 {
+        width: 25%;
+        padding: 2px;
+    }
+    .column-middle2 {
+        width: 25%;
+        padding: 2px;
+    }
+    .column-right {
+        width: 25%;
+        padding: 2px;
+    }
 }
