@@ -1,9 +1,9 @@
 South West Equestrian Website Project
 
-The goal of this website is to provide an online presence for a small riding school in Donegal with the aim of increasing bookings and efficiency through the use of an online contact form. 
+The goal of this website is to provide an online presence for a small riding school in Donegal giving it a more professional image.  It is hoped that the website will allow for an increase bookings through this exposure and the use of an online contact form. 
+The website will make business running procedures more efficient as there will be less of a need for someone to man the phone and queries can be submitted all times via email and social media.
+The website will host some key information on the services provided by the stables and encourage potential customers to get in touch.
 
-The website will host some key information on the services provided by the stables and encourage potential customers to get in touch via the contact form or connect through social media channels rather than through telephone.
-We will take a mobile-first approach to the website in the hopes of maximmising 
 
 
 UX 
@@ -96,4 +96,4 @@ The photos used in this site were obtained from Unsplash.
 The video used in this site was obtained from Coverr.
 
 Acknowledgements
-I received inspiration for this project from XBuild Responsive Real World Websites with HTML5 and CSS3 by Jonas Schmedtmann
+I received inspiration for this project from the Running project and Resume projects previously completed in this course and also from XBuild Responsive Real World Websites with HTML5 and CSS3 by Jonas Schmedtmann
