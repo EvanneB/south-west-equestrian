@@ -1,20 +1,30 @@
 South West Equestrian Website Project
 
-The goal of this website is to provide an online presence for a small riding school where some information can be found and queries/bookings can be made and move away from telephone enquiries and save time.
+The goal of this website is to provide an online presence for a small riding school in Donegal and increase bookings and efficiency through the use of an online contact form. 
+The website will host some information on the services provided by the stables and encourage potential customers to get in touch via the contact form or connect through social media channels rather than through telephone.
 We will take a mobile-first approach to the website in the hopes of maximmising 
 
 
 UX
-The Strategy Plane
+The Strategy Plane 
+The aim of this website is to achieve greater exposure and free up resources taken up by taking all bookings via phone.
+This will ensure easier and more convenient correspondence between new and exisitng members of the school when making bookings. 
+
 
 The Scope Plane
+The two main features we want to include in our desigs is information on the services provided by the school and a contact form where interested parties can submit queries and book lessons.
 
 The Structure Plane
 
 The Skeletal Plane
+The website will consist of three pages, a home page, classes page and contact page.
+The home page will host a brief description of the services offered by the riding school. There will be lots of horse images to make the website looking inviting for horse lovers.
+There will be a classes page which will give further information on the lessons and events including days on which the classes are provided.
+The third page is the contact page whose main feature is the contact form.
 
 The Surface Plane 
 
+This website is for new and existing members of the South West Equestrian riding school. It has been designed to provide an online presence for the school and provide a more convenient way for clients to get in contact 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -45,23 +55,27 @@ In this section, you should mention all of the languages, frameworks, libraries,
 HTML5 CSS Bootstrap Github Gitpod Chrome Developer Tools
 JQuery
 The project uses JQuery to simplify DOM manipulation.
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I tested the following features to make sure they worked as desired:
+1.Navbar:
+  i. Go to “Home” page
+  ii. Try to access the “Classes” and “Contact” page from the navbar tab.
+  iii. Try to access each page again through the navbar tab on the “Classes” and “Contact” page.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+2. South West Equestrian:
+i. Click on South West Equestrian in the navbar and verify that it redirects to the homepage.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+3. Social media links:
+  i. From the “Home”, “Classes” and “Contact” pages check the Facebook, Instagram and Twitter icons open the sites in a new tabs when clicked on.
+  ii. From the “Home”, “Classes” and “Contact” pages check mail icon opens the “Contact” page in a new tab.
 
-Contact form:
+4. Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
