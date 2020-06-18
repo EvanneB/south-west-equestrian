@@ -14,7 +14,7 @@ I chose to keep text and jargon to a minimum  and stick to key information point
 A good user experience is when the user uses the contact form to make a booking or enquire about our services. 
 Here is a grid of opportunities that this website will create and their importance/feasibility.
 The most important opportunity that this website will create is an online presence and increased bookings.
-![grid]https://evanneb.github.io/south-west-equestrian/assets/images/grid.jpg
+![grid-pic]https://evanneb.github.io/south-west-equestrian/assets/images/grid.jpg
 ### The Scope Plane
 The two main features we want to include in our design is information on the services provided by the school, and a contact form where interested parties can submit queries and book lessons.
 ### The Structure Plane
@@ -65,9 +65,9 @@ I tested the following features to make sure they worked as desired:
 The website has also been tested on small medium and large screens via Chrome Developer tools. I also tested the website on phone and ipad and followed the above tests to ensure all features are in working order.
 I conducted the above tests on Safari to verify that it works correctly.
 I ran the the CSS stylesheet through the CSS validator. 
-!{CSS-validation}(https://evanneb.github.io/south-west-equestrian/assets/images/Screenshot-CSS.png)
+![CSS-validation](https://evanneb.github.io/south-west-equestrian/assets/images/Screenshot-CSS.png)
 I also ran the html pages through a html5 validator.
-!{HTML-validation}(https://evanneb.github.io/south-west-equestrian/assets/images/Screenshot-HTML.png)
+![HTML-validation](https://evanneb.github.io/south-west-equestrian/assets/images/Screenshot-HTML.png)
 
 ## Deployment
 The website was coded in Gitpod where each version was pushed to the GitHub repository. Once in the GitHub repository it was made live using GitHub Pages. The website can be found at: https://evanneb.github.io/south-west-equestrian/
