@@ -14,7 +14,7 @@ I chose to keep text and jargon to a minimum  and stick to key information point
 A good user experience is when the user uses the contact form to make a booking or enquire about our services. 
 Here is a grid of opportunities that this website will create and their importance/feasibility.
 The most important opportunity that this website will create is an online presence and increased bookings.
-!{grid}https://evanneb.github.io/south-west-equestrian/assets/images/grid.jpg
+![grid]https://evanneb.github.io/south-west-equestrian/assets/images/grid.jpg
 ### The Scope Plane
 The two main features we want to include in our design is information on the services provided by the school, and a contact form where interested parties can submit queries and book lessons.
 ### The Structure Plane
@@ -23,8 +23,8 @@ The home page will host a brief description of the services offered by the ridin
 There will be a 'classes' page which will give further information on the lessons and events including days on which the classes happen.
 The third page is the contact page whose main feature is the contact form where customers can request to book a class or submit a query.
 ### The Skeletal Plane
-!{mobile-wireframe}(https://evanneb.github.io/south-west-equestrian/assets/images/wireframe-mobile.jpg)
-!{desktop-wireframe}(https://evanneb.github.io/south-west-equestrian/assets/images/wireframe-mobile.jpg)
+![mobile-wireframe](https://evanneb.github.io/south-west-equestrian/assets/images/wireframe-mobile.jpg)
+![desktop-wireframe](https://evanneb.github.io/south-west-equestrian/assets/images/wireframe-mobile.jpg)
 ### The Surface Plane 
 This will be an image heavy website to appeal to customers. The color scheme of the website will white and yellow. I will make use of whitespace and use a bright yellow color for icons and buttons to draw attention to them. 
 I will use the Open Sans font as it is has excellent legibility characteristics and was optimised for web and mobile interfaces. There wont be an overwhelming amount of text as we want to encourage interested parties to get in touch via the contact form.
