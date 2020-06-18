@@ -14,7 +14,7 @@ I chose to keep text and jargon to a minimum  and stick to key information point
 A good user experience is when the user uses the contact form to make a booking or enquire about our services. 
 Here is a grid of opportunities that this website will create and their importance/feasibility.
 The most important opportunity that this website will create is an online presence and increased bookings.
-![grid-pic]https://evanneb.github.io/south-west-equestrian/assets/images/grid.jpg
+![grid-pic](https://evanneb.github.io/south-west-equestrian/assets/images/grid.jpg)
 ### The Scope Plane
 The two main features we want to include in our design is information on the services provided by the school, and a contact form where interested parties can submit queries and book lessons.
 ### The Structure Plane
